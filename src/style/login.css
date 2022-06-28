@@ -1,0 +1,54 @@
+.login {
+    padding: 2em;
+    position: fixed;
+    background: #334;
+    margin-top: 30vh;
+    box-shadow: 0 0 0 3200px rgb(0 0 0 / 85%);
+}
+.login input,
+.login a{
+	display:block;
+	    margin-top: 1em;
+		   line-height: 2em;
+		       border-radius: 0.2em;
+}
+.login input {
+     border: 1px solid #ccc;
+	padding:0 0.5em;
+	font-size:1.1em;
+	color:#555;
+
+}
+.login select{
+	margin-top:1em;
+	height:2em;
+	line-height:2em;
+}
+.login select option {/*无效*/
+    display: block;
+    line-height: 2em;
+    height: 2em;
+    padding: 5em 0;
+}
+.login a{
+text-align:center;
+background:#0dc;
+color: #fff;
+cursor: pointer;
+
+}
+.login b{
+    position: absolute;
+    top: -2px;
+    right: -8px;
+    width: 24px;
+    height: 24px;
+    z-index: 9999;
+    padding: 12px;
+    font: 1.8rem/1.2rem "Arial";
+    color: #999;
+	cursor: pointer;
+}
+b:hover {
+    color: #ff9;
+}

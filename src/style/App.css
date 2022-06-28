@@ -1,0 +1,54 @@
+#root{
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  color: white;
+}
+a {
+    cursor: pointer;
+	text-decoration:none;
+    outline: none;
+	color: #0dc;
+}
+.navtop,
+.foot{
+flex-basis: 100%;
+text-align:center;
+}
+
+.navtop a{
+
+	color: #0dc;
+    padding: 0 0.5em;
+}
+select:focus,
+input:focus,
+[contenteditable]:focus {
+    outline: none;
+}
+.fix1 {
+    position: fixed;
+    z-index: 998;
+    bottom: 0;
+}
+
+.navbtm {
+    display: block;
+    width: 100%;
+    box-shadow: 0 0 1px rgba(0,0,0,0.2);
+    background: #000;
+    text-align: center;
+    line-height: 2em;
+}
+
+.navbtm a {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    font: 500 1.1em/3.3 "";
+}
+
+
